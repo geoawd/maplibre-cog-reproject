@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.16",
-    "@geomatico/maplibre-cog-protocol": "github:geoawd/maplibre-cog-protocol#hook",
+    "@geomatico/maplibre-cog-protocol": "github:geoawd/maplibre-cog-protocol#hook-build",
     "@rollup/plugin-commonjs": "^29.0.2",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-terser": "^1.0.0",
