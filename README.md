@@ -6,6 +6,8 @@ core library does not carry [proj4](https://github.com/proj4js/proj4js) and
 [`@developmentseed/raster-reproject`](https://github.com/developmentseed/deck.gl-raster/tree/main/packages/raster-reproject)
 for those who only read Web Mercator COGs.
 
+[Live examples](https://geoawd.github.io/maplibre-cog-reproject/)
+
 ```
 npm install @geomatico/maplibre-cog-reproject
 ```

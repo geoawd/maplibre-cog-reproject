@@ -11,6 +11,7 @@
     "build:umd": "rollup -c rollup.config.mjs",
     "build:esm": "tsc --outDir dist/esm",
     "build:types": "tsc --declaration --emitDeclarationOnly --outDir dist/types",
+    "build:site": "node scripts/build-site.mjs",
     "build": "rimraf dist && concurrently --names 'UMD,ESM,TYPES' 'npm run build:umd' 'npm run build:esm' 'npm run build:types'",
     "prepack": "npm run build"
   },
