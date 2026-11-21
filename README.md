@@ -54,6 +54,6 @@ npm run build       # UMD, ESM and .d.ts into dist/
 npm run watch       # rebuild dist/ and serve examples/ with live reload
 ```
 
-The core library is a dev dependency, installed from its git branch with the reprojection hook (its `prepare`
+The core library is a dev dependency, installed from its `hook-build` git branch, which has the reprojection hook (its `prepare`
 script builds it). The end-to-end tests drive its internals through its ESM build (`@core/...` in
 [vitest.config.ts](vitest.config.ts)). The examples load its UMD build from `node_modules`, and this package's from `dist/`.
